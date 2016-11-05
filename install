@@ -1,4 +1,4 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-import os
-cmd_install_bearBuild = "curl -o bearbuild -fsSL https://raw.githubusercontent.com/xiongcaichang/bearbuild/master/bearbuild&&sudo chmod +x bearbuild && mv bearbuild /usr/local/bin/bearbuild &&soure .bash_profile";os.system(cmd_install_bearBuild);
+import os;cmd_install_bearBuild = "curl -o bearbuild -fsSL https://raw.githubusercontent.com/xiongcaichang/bearbuild/master/bearbuild&&sudo chmod +x bearbuild && mv bearbuild /usr/local/bin/bearbuild &&soure .bash_profile";os.system(cmd_install_bearBuild);
 
